@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textID" type="id" />
+    <item name="textName" type="id" />
+    <item name="textHeight" type="id" />
+    <item name="textWeight" type="id" />
+    <item name="textTypes" type="id" />
+    <item name="imageView" type="id" />
+    <item name="pokeName" type="id" />
+    <item name="buttonPesquisa" type="id" />
+    <item name="progressConnection" type="id" />
+</resources>

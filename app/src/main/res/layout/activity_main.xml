@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEA00"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/pokeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00EE1919"
+        android:hint="Ingrese nombre o numero"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/buttonPesquisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3A23C"
+        android:onClick="callPokemon"
+        android:text="Buscar pokemon"
+        android:textSize="24sp" />
+
+    <ProgressBar
+        android:id="@+id/progressConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00DF3838"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID  Pokemon"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Pokemon"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura del Pokemon"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso del Pokemon"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tipos"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="345dp" />
+
+
+</LinearLayout>
